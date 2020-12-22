@@ -1,0 +1,93 @@
+.rm{
+	background-color: black;
+	color: white;
+	border: white;
+	border-style: solid;
+	border-radius: 50px;
+	padding: 3px;
+}
+.link{
+	text-decoration: none;
+	color: black;
+}
+.link:hover{
+	color: red;
+	text-decoration: none;
+}
+.font_f{
+	font-family: 'Inknut Antiqua', serif;
+	background: #ECF2CC; padding: 5px; color: red; margin-top: 0px; margin-bottom: 0px; border-bottom-style: solid; border-bottom-color: black; border-width: 1px
+}
+#sec{
+	margin-top:25px;
+	margin-bottom: 25px;
+}
+
+#sec_tion{
+	list-style: none;
+	margin: 5px;
+}
+
+#sec_tion1{
+	margin-bottom: 50px;
+	text-shadow: red 0px 0px 5px;
+}
+#sec_2{
+	background-color: black;
+	padding: 50px;
+	margin-top: 0px;
+}
+#head_ing{
+	font-size: 40px;
+}
+#foot_er{
+	background-color: black;
+	color: white;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 5px;
+}
+#but_ton{
+	text-align: center;
+	background-color: black;
+	color: white; 
+	border-color: white; 
+	border-width: 4px; 
+	border-style: solid;
+	padding: 5px;
+}
+#foot_er{
+	color: white;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#lin_k{
+	background-color: #D2E28A;
+	padding: 4px;
+	border-radius: 20%;
+}
+.join-but1{
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 50px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    border: black;
+    border-style: solid;
+    }
+.join-but1:hover {
+    color: #FFF;
+    background-color: black;
+    border:1px solid lightgray;
+}
+#join-but1:hover {
+    color: #FFF;
+    background-color: black;
+    border:1px solid lightgray;
+}
