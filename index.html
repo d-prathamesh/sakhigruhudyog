@@ -59,10 +59,10 @@
     <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="cr_2.jpg" class="d-block w-100" alt="...">
+      <img src="cr_1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="cr_1.jpg" class="d-block w-100" alt="...">
+      <img src="cr_2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="cr_3.jpg" class="d-block w-100" alt="...">
@@ -83,6 +83,29 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<!--Visit at top-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>  
 <!--Heading-->
 <section style="background-color: #FAE0E0 ;padding-top: 20px;">
 <h1 style="color: red; text-align: center; margin-top: 0px;">Sakhi's Variety</h1>
@@ -92,10 +115,10 @@
       <div class="row">
         <div class="col-sm-4">
             <ul id="sec_tion">
-              <a href="product_pg.html" class="link"><li id="head_ing">Bhajni</li></a>
+              <a href="product_pg.html" class="mydiv"><li id="head_ing">Bhajni</li></a>
               <li id="sec_tion1">Quality Matters</li>
-              <a href="pro_pith.html" class="link"><li id="head_ing">Flour</li></a>
-              <li id="sec_tion1">Swad Shuddhtecha!</li>
+              <a href="pro_pith.html" class="mydiv"><li id="head_ing">Flour</li></a>
+              <li id="sec_tion1">Swad Shuddhtecha !</li>
             </ul>
         </div>
         <div class="col-sm-4">
@@ -103,10 +126,10 @@
         </div>
         <div class="col-sm-4">
           <ul id="sec_tion">
-            <a href="pro_im.html" class="link"><li id="head_ing">Instant Mix</li></a>
+            <a href="pro_im.html" class="mydiv"><li id="head_ing">Instant Mix</li></a>
             <li id="sec_tion1">Quality Matters</li>
-            <a href="pro_masale.html" class="link"><li id="head_ing">Masale</li></a>
-            <li id="sec_tion1">Marathvadyachi Assal Chav!
+            <a href="pro_masale.html" class="mydiv""><li id="head_ing">Masale</li></a>
+            <li id="sec_tion1">Marathvadyachi Assal Chav !
             </li>
           </ul>
         </div>
