@@ -4,9 +4,12 @@
 	text-align: center;
 	color:black;
 	font-weight:bold;
+	font-size: small;
 	animation: myanimation1 10s infinite;
 	text-decoration: none;
 	border-radius: 50px;
+	margin-top: 5px;
+	margin-bottom: 25px;
 }
 @keyframes myanimation1 {
 	0% {background-color: rgb(81, 68, 192);}
@@ -23,6 +26,7 @@
 	margin-top: 1px;
 	color: black;
 	font-family: 'Times New Roman', Times, serif;
+	font-size: large;
 }
 .mydiv {
 	width:100%;
@@ -83,7 +87,7 @@
 }
 
 #sec_tion1{
-	margin-bottom: 50px;
+	
 	text-shadow: red 0px 0px 5px;
 }
 #sec_2{
