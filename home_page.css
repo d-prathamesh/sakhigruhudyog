@@ -12,11 +12,11 @@
 	margin-bottom: 25px;
 }
 @keyframes myanimation1 {
-	0% {background-color: rgb(81, 68, 192);}
-	25%{background-color: red;}
-	50%{background-color:brown ;}
-	75%{background-color:rgb(152, 5, 172);}
-	100% {background-color: white;}
+	0% {background-color: rgb(81, 68, 192); color: white;}
+	25%{background-color: red; color: white;}
+	50%{background-color:brown ; color: white;}
+	75%{background-color:rgb(152, 5, 172); color: white;}
+	100% {background-color: white; color: black;}
   }
 .ps{
 	background-color: #FAE0E0; 
